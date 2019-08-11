@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F02F88C230031F50077939B /* ExcursionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F02F88B230031F50077939B /* ExcursionList.swift */; };
 		1F5D1C6622F596DA004BA827 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5D1C6522F596DA004BA827 /* ImageTableViewCell.swift */; };
 		ED7909C122EB591700469C7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7909C022EB591700469C7A /* AppDelegate.swift */; };
 		ED7909C322EB591700469C7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7909C222EB591700469C7A /* ViewController.swift */; };
@@ -15,7 +16,6 @@
 		ED7909CB22EB591900469C7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7909C922EB591900469C7A /* LaunchScreen.storyboard */; };
 		ED7909D322EB5C9700469C7A /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7909D222EB5C9700469C7A /* About.storyboard */; };
 		ED7909D522EB643000469C7A /* ExcursionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7909D422EB643000469C7A /* ExcursionViewController.swift */; };
-		EDADF2362300294100CCB194 /* ExcursionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDADF2352300294100CCB194 /* ExcursionList.swift */; };
 		EDD8DF3822F22F3800A53707 /* ExcursionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8DF3722F22F3800A53707 /* ExcursionListViewController.swift */; };
 		EDD8DF3A22F235D200A53707 /* TransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8DF3922F235D200A53707 /* TransferViewController.swift */; };
 		EDD8DF3C22F56B7600A53707 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8DF3B22F56B7600A53707 /* ProfileViewController.swift */; };
@@ -24,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F02F88B230031F50077939B /* ExcursionList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcursionList.swift; sourceTree = "<group>"; };
 		1F5D1C6522F596DA004BA827 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
 		ED7909BD22EB591700469C7A /* EuropeanTravelPartner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EuropeanTravelPartner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7909C022EB591700469C7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,7 +35,6 @@
 		ED7909CC22EB591900469C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED7909D222EB5C9700469C7A /* About.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = About.storyboard; sourceTree = "<group>"; };
 		ED7909D422EB643000469C7A /* ExcursionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcursionViewController.swift; sourceTree = "<group>"; };
-		EDADF2352300294100CCB194 /* ExcursionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcursionList.swift; sourceTree = "<group>"; };
 		EDD8DF3722F22F3800A53707 /* ExcursionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcursionListViewController.swift; sourceTree = "<group>"; };
 		EDD8DF3922F235D200A53707 /* TransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferViewController.swift; sourceTree = "<group>"; };
 		EDD8DF3B22F56B7600A53707 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -76,8 +76,8 @@
 				ED7909C222EB591700469C7A /* ViewController.swift */,
 				EDD8DF3922F235D200A53707 /* TransferViewController.swift */,
 				EDD8DF3722F22F3800A53707 /* ExcursionListViewController.swift */,
-				EDADF2352300294100CCB194 /* ExcursionList.swift */,
 				ED7909D422EB643000469C7A /* ExcursionViewController.swift */,
+				1F02F88B230031F50077939B /* ExcursionList.swift */,
 				1F5D1C6522F596DA004BA827 /* ImageTableViewCell.swift */,
 				EDD8DF3B22F56B7600A53707 /* ProfileViewController.swift */,
 				EDD8DF3D22F56BF400A53707 /* RegistrationViewController.swift */,
@@ -169,7 +169,7 @@
 				1F5D1C6622F596DA004BA827 /* ImageTableViewCell.swift in Sources */,
 				EDD8DF3A22F235D200A53707 /* TransferViewController.swift in Sources */,
 				EDD8DF3822F22F3800A53707 /* ExcursionListViewController.swift in Sources */,
-				EDADF2362300294100CCB194 /* ExcursionList.swift in Sources */,
+				1F02F88C230031F50077939B /* ExcursionList.swift in Sources */,
 				EDD8DF3E22F56BF400A53707 /* RegistrationViewController.swift in Sources */,
 				ED7909C122EB591700469C7A /* AppDelegate.swift in Sources */,
 				ED7909D522EB643000469C7A /* ExcursionViewController.swift in Sources */,

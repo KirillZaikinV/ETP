@@ -184,6 +184,10 @@
                                 <rect key="frame" x="0.0" y="88" width="375" height="268"/>
                                 <gestureRecognizers/>
                             </imageView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="hg9-eu-72s">
+                                <rect key="frame" x="168" y="297" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -197,6 +201,7 @@
                     <connections>
                         <outlet property="excursionAbout" destination="v9A-Xk-6Np" id="tXr-Wu-S6B"/>
                         <outlet property="excursionImage" destination="YKE-e1-Kk2" id="esT-ap-FZv"/>
+                        <outlet property="excursionImagePageControl" destination="hg9-eu-72s" id="Lrm-48-Xdu"/>
                         <outlet property="numberOfPeople" destination="vDn-Di-awa" id="9yk-B4-YJ8"/>
                         <outlet property="orderPrice" destination="Uql-8W-8RK" id="xm0-DF-Pdq"/>
                     </connections>

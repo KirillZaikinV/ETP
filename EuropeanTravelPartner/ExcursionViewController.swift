@@ -13,6 +13,7 @@ class ExcursionViewController: UIViewController {
     var i = 1
     var name = "CesKru"
 
+    @IBOutlet weak var excursionImagePageControl: UIPageControl!
     
     @IBOutlet weak var excursionImage: UIImageView!
     
@@ -25,6 +26,8 @@ class ExcursionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        excursionImagePageControl.currentPage = i
+        excursionImage.isUserInteractionEnabled = true
         excursionImage.image = UIImage(named: "CesKru\(i)")
         
         let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(swipeLeftAction))
@@ -48,10 +51,13 @@ class ExcursionViewController: UIViewController {
     @objc func swipeLeftAction() {
         i += 1
         excursionImage.image = UIImage(named: "CesKru\(i)")
-print("test swipe left")
+        print("test swipe left")
+        excursionImagePageControl.currentPage = i
     }
     
     @objc func swipeRightAction() {
+        i -= 1
+        excursionImage.image = UIImage(named: "CesKru\(i)")
         print("test swipe left")
 
     }
