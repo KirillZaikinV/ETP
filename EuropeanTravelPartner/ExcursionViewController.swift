@@ -10,6 +10,9 @@ import UIKit
 
 class ExcursionViewController: UIViewController {
     
+    var i = 1
+    var name = "CesKru"
+
     
     @IBOutlet weak var excursionImage: UIImageView!
     
@@ -22,8 +25,16 @@ class ExcursionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        excursionImage.image = UIImage(named: "CesKru\(i)")
         
+        let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(swipeLeftAction))
+        swipeLeft.direction = .left
+        self.excursionImage.addGestureRecognizer(swipeLeft)
+        
+        let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(swipeRightAction))
+        swipeRight.direction = .right
+        
+        self.excursionImage.addGestureRecognizer(swipeRight)
     }
     
     @IBAction func changeNumberOfPeople(_ sender: Any) {
@@ -32,5 +43,18 @@ class ExcursionViewController: UIViewController {
 
     @IBAction func addToBasket(_ sender: Any) {
     }
+    
+    
+    @objc func swipeLeftAction() {
+        i += 1
+        excursionImage.image = UIImage(named: "CesKru\(i)")
+print("test swipe left")
+    }
+    
+    @objc func swipeRightAction() {
+        print("test swipe left")
+
+    }
+    
     
 }

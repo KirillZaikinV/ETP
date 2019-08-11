@@ -31,18 +31,6 @@ class ExcursionListViewController: UIViewController, UITableViewDataSource, UITa
         placeList.append(Excursion(name: "Кутна Гора", price: "25 EUR", image: "Кутна Гора"))
     }
     
-    // экскурсии
-    class Excursion {
-        let name: String
-        let price: String
-        let image: String
-        
-        init(name: String, price: String, image: String) {
-        self.name = name
-        self.price = price
-        self.image = image
-        }
-    }
     
     
     
