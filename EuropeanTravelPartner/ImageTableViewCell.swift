@@ -9,9 +9,14 @@
 import UIKit
 
 class ImageTableViewCell: UITableViewCell {
+    
     @IBOutlet weak var excursLabel: UILabel!
     
+    @IBOutlet weak var excursPrice: UILabel!
+    
     @IBOutlet weak var excursImage: UIImageView!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

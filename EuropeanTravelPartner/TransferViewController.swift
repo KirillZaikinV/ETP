@@ -17,9 +17,6 @@ class TransferViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     
     @IBOutlet weak var pointOfDeparture: UIPickerView!
     
-    @IBOutlet weak var pointOfDestination: UIPickerView!
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,6 +37,7 @@ class TransferViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return departure[row]
     }
+    
     
     
 }
